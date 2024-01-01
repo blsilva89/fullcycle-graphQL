@@ -85,3 +85,9 @@ models:
       - github.com/99designs/gqlgen/graphql.Int
       - github.com/99designs/gqlgen/graphql.Int64
       - github.com/99designs/gqlgen/graphql.Int32
+  Category:
+    model:
+      - github.com/blsilva89/fullcycle-graphQL/graph/model.Category
+  Course:
+    model:
+      - github.com/blsilva89/fullcycle-graphQL/graph/model.Course
