@@ -1,0 +1,23 @@
+.devcontainer/
+# Arquivos do sistema
+.DS_Store
+
+# Arquivos de compilação
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Pasta bin gerada pelo Go
+/bin/
+
+# Pasta de dependências gerada pelo Go
+/vendor/
+
+# Arquivos de configuração específicos do sistema
+.idea/
+.vscode/
+
+# Arquivos de log
+*.log
